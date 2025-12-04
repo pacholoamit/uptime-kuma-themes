@@ -14,18 +14,43 @@ A collection of beautiful, customizable themes and layouts for [Uptime Kuma](htt
 
 ---
 
+## Usage
+
+### Applying a Theme
+
+1. Open your Uptime Kuma dashboard
+2. Go to **Settings** → **Appearance** → **Custom CSS**
+3. Copy the contents of your chosen theme from `themes/<theme-name>/index.css`
+4. Paste it into the Custom CSS field
+5. Save
+
+### Combining Theme + Layout
+
+You can combine any theme with any layout by concatenating both CSS files:
+
+```css
+/* First, paste the theme CSS */
+/* themes/dracula/index.css content here */
+
+/* Then, paste the layout CSS */
+/* layouts/two-column/index.css content here */
+```
+
+---
+
 ## Themes
 
 - Themes
-  - [Gruvbox](#gruvbox)
+  - [Lumina](#lumina)
+  - [Ayu](#ayu)
   - [Catppuccin](#catppuccin)
+  - [Solarized](#solarized)
+  - [Gruvbox](#gruvbox)
   - [Nord](#nord)
   - [Dracula](#dracula)
-  - [Solarized](#solarized)
   - [Tokyo Night](#tokyo-night)
   - [One Dark Pro](#one-dark-pro)
   - [Monokai](#monokai)
-  - [Ayu](#ayu)
   - [Palenight](#palenight)
   - [Synthwave '84](#synthwave-84)
   - [Everforest](#everforest)
@@ -37,17 +62,26 @@ A collection of beautiful, customizable themes and layouts for [Uptime Kuma](htt
   - [Horizon](#horizon)
   - [One Light](#one-light)
   - [Moonlight](#moonlight)
-  - [Lumina](#lumina)
 
 ---
 
-### Gruvbox
+### Lumina
 
-Retro groove with warm browns, oranges, and muted greens.
+Dark cinematic theme with orange accents.
 
-![Gruvbox Theme](./themes/gruvbox/default.png)
+![Lumina Theme](./themes/lumina/default.png)
 
-[View CSS](./themes/gruvbox/index.css)
+[View CSS](./themes/lumina/index.css)
+
+---
+
+### Ayu
+
+Minimalist with soft, refined colors.
+
+![Ayu Theme](./themes/ayu/default.png)
+
+[View CSS](./themes/ayu/index.css)
 
 ---
 
@@ -58,6 +92,26 @@ Soothing pastel theme (Mocha flavor).
 ![Catppuccin Theme](./themes/catppuccin/default.png)
 
 [View CSS](./themes/catppuccin/index.css)
+
+---
+
+### Solarized
+
+Precision-engineered dark color scheme.
+
+![Solarized Theme](./themes/solarized/default.png)
+
+[View CSS](./themes/solarized/index.css)
+
+---
+
+### Gruvbox
+
+Retro groove with warm browns, oranges, and muted greens.
+
+![Gruvbox Theme](./themes/gruvbox/default.png)
+
+[View CSS](./themes/gruvbox/index.css)
 
 ---
 
@@ -78,16 +132,6 @@ Dark purple with vibrant pink, cyan, and green accents.
 ![Dracula Theme](./themes/dracula/default.png)
 
 [View CSS](./themes/dracula/index.css)
-
----
-
-### Solarized
-
-Precision-engineered dark color scheme.
-
-![Solarized Theme](./themes/solarized/default.png)
-
-[View CSS](./themes/solarized/index.css)
 
 ---
 
@@ -118,16 +162,6 @@ The legendary Sublime Text classic.
 ![Monokai Theme](./themes/monokai/default.png)
 
 [View CSS](./themes/monokai/index.css)
-
----
-
-### Ayu
-
-Minimalist with soft, refined colors.
-
-![Ayu Theme](./themes/ayu/default.png)
-
-[View CSS](./themes/ayu/index.css)
 
 ---
 
@@ -241,16 +275,6 @@ Deep blues with vibrant accents.
 
 ---
 
-### Lumina
-
-Dark cinematic theme with orange accents.
-
-![Lumina Theme](./themes/lumina/default.png)
-
-[View CSS](./themes/lumina/index.css)
-
----
-
 ## Layouts
 
 | Layout | Description |
@@ -260,28 +284,6 @@ Dark cinematic theme with orange accents.
 | **Three-Column** | Maximum density grid layout |
 | **Cards Grid** | Individual monitors as responsive cards |
 | **Minimal** | Clean, distraction-free design |
-
-## Usage
-
-### Applying a Theme
-
-1. Open your Uptime Kuma dashboard
-2. Go to **Settings** → **Appearance** → **Custom CSS**
-3. Copy the contents of your chosen theme from `themes/<theme-name>/index.css`
-4. Paste it into the Custom CSS field
-5. Save
-
-### Combining Theme + Layout
-
-You can combine any theme with any layout by concatenating both CSS files:
-
-```css
-/* First, paste the theme CSS */
-/* themes/dracula/index.css content here */
-
-/* Then, paste the layout CSS */
-/* layouts/two-column/index.css content here */
-```
 
 ## Documentation
 
