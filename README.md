@@ -12,31 +12,230 @@
 
 A collection of beautiful, customizable themes and layouts for [Uptime Kuma](https://github.com/louislam/uptime-kuma) status pages.
 
+---
+
 ## Themes
 
-| Theme | Description |
-|-------|-------------|
-| **Gruvbox** | Retro groove with warm browns, oranges, and muted greens |
-| **Catppuccin** | Soothing pastel theme (Mocha flavor) |
-| **Nord** | Arctic, bluish-grey inspired by polar nights |
-| **Dracula** | Dark purple with vibrant pink, cyan, and green accents |
-| **Solarized** | Precision-engineered dark color scheme |
-| **Tokyo Night** | Deep blues inspired by Tokyo city lights |
-| **One Dark Pro** | Based on Atom's iconic One Dark theme |
-| **Monokai** | The legendary Sublime Text classic |
-| **Ayu** | Minimalist with soft, refined colors |
-| **Palenight** | Material Design-inspired purples and teals |
-| **Synthwave '84** | Retro 80s neon aesthetic with glow effects |
-| **Everforest** | Nature-inspired green palette |
-| **Kanagawa** | Japanese-aesthetic muted tones |
-| **Rosé Pine** | Soft, romantic, muted tones |
-| **Modus Vivendi** | WCAG AAA accessible dark theme |
-| **GitHub Dark** | Official GitHub dark colors |
-| **Night Owl** | Optimized for night-time with accessible colors |
-| **Horizon** | Warm oranges, purples, and pinks |
-| **One Light** | Clean, professional light theme |
-| **Moonlight** | Deep blues with vibrant accents |
-| **Lumina** | Dark cinematic theme with orange accents |
+| | | | |
+|---|---|---|---|
+| [Gruvbox](#gruvbox) | [Catppuccin](#catppuccin) | [Nord](#nord) | [Dracula](#dracula) |
+| [Solarized](#solarized) | [Tokyo Night](#tokyo-night) | [One Dark Pro](#one-dark-pro) | [Monokai](#monokai) |
+| [Ayu](#ayu) | [Palenight](#palenight) | [Synthwave '84](#synthwave-84) | [Everforest](#everforest) |
+| [Kanagawa](#kanagawa) | [Rosé Pine](#rosé-pine) | [Modus Vivendi](#modus-vivendi) | [GitHub Dark](#github-dark) |
+| [Night Owl](#night-owl) | [Horizon](#horizon) | [One Light](#one-light) | [Moonlight](#moonlight) |
+| [Lumina](#lumina) | | | |
+
+---
+
+### Gruvbox
+
+Retro groove with warm browns, oranges, and muted greens.
+
+![Gruvbox Theme](./themes/gruvbox/default.png)
+
+[View CSS](./themes/gruvbox/index.css)
+
+---
+
+### Catppuccin
+
+Soothing pastel theme (Mocha flavor).
+
+![Catppuccin Theme](./themes/catppuccin/default.png)
+
+[View CSS](./themes/catppuccin/index.css)
+
+---
+
+### Nord
+
+Arctic, bluish-grey inspired by polar nights.
+
+![Nord Theme](./themes/nord/default.png)
+
+[View CSS](./themes/nord/index.css)
+
+---
+
+### Dracula
+
+Dark purple with vibrant pink, cyan, and green accents.
+
+![Dracula Theme](./themes/dracula/default.png)
+
+[View CSS](./themes/dracula/index.css)
+
+---
+
+### Solarized
+
+Precision-engineered dark color scheme.
+
+![Solarized Theme](./themes/solarized/default.png)
+
+[View CSS](./themes/solarized/index.css)
+
+---
+
+### Tokyo Night
+
+Deep blues inspired by Tokyo city lights.
+
+![Tokyo Night Theme](./themes/tokyo-night/default.png)
+
+[View CSS](./themes/tokyo-night/index.css)
+
+---
+
+### One Dark Pro
+
+Based on Atom's iconic One Dark theme.
+
+![One Dark Pro Theme](./themes/one-dark-pro/default.png)
+
+[View CSS](./themes/one-dark-pro/index.css)
+
+---
+
+### Monokai
+
+The legendary Sublime Text classic.
+
+![Monokai Theme](./themes/monokai/default.png)
+
+[View CSS](./themes/monokai/index.css)
+
+---
+
+### Ayu
+
+Minimalist with soft, refined colors.
+
+![Ayu Theme](./themes/ayu/default.png)
+
+[View CSS](./themes/ayu/index.css)
+
+---
+
+### Palenight
+
+Material Design-inspired purples and teals.
+
+![Palenight Theme](./themes/palenight/default.png)
+
+[View CSS](./themes/palenight/index.css)
+
+---
+
+### Synthwave '84
+
+Retro 80s neon aesthetic with glow effects.
+
+![Synthwave '84 Theme](./themes/synthwave-84/default.png)
+
+[View CSS](./themes/synthwave-84/index.css)
+
+---
+
+### Everforest
+
+Nature-inspired green palette.
+
+![Everforest Theme](./themes/everforest/default.png)
+
+[View CSS](./themes/everforest/index.css)
+
+---
+
+### Kanagawa
+
+Japanese-aesthetic muted tones.
+
+![Kanagawa Theme](./themes/kanagawa/default.png)
+
+[View CSS](./themes/kanagawa/index.css)
+
+---
+
+### Rosé Pine
+
+Soft, romantic, muted tones.
+
+![Rosé Pine Theme](./themes/rose-pine/default.png)
+
+[View CSS](./themes/rose-pine/index.css)
+
+---
+
+### Modus Vivendi
+
+WCAG AAA accessible dark theme.
+
+![Modus Vivendi Theme](./themes/modus-vivendi/default.png)
+
+[View CSS](./themes/modus-vivendi/index.css)
+
+---
+
+### GitHub Dark
+
+Official GitHub dark colors.
+
+![GitHub Dark Theme](./themes/github-dark/default.png)
+
+[View CSS](./themes/github-dark/index.css)
+
+---
+
+### Night Owl
+
+Optimized for night-time with accessible colors.
+
+![Night Owl Theme](./themes/night-owl/default.png)
+
+[View CSS](./themes/night-owl/index.css)
+
+---
+
+### Horizon
+
+Warm oranges, purples, and pinks.
+
+![Horizon Theme](./themes/horizon/default.png)
+
+[View CSS](./themes/horizon/index.css)
+
+---
+
+### One Light
+
+Clean, professional light theme.
+
+![One Light Theme](./themes/one-light/default.png)
+
+[View CSS](./themes/one-light/index.css)
+
+---
+
+### Moonlight
+
+Deep blues with vibrant accents.
+
+![Moonlight Theme](./themes/moonlight/default.png)
+
+[View CSS](./themes/moonlight/index.css)
+
+---
+
+### Lumina
+
+Dark cinematic theme with orange accents.
+
+![Lumina Theme](./themes/lumina/default.png)
+
+[View CSS](./themes/lumina/index.css)
+
+---
 
 ## Layouts
 
@@ -70,167 +269,10 @@ You can combine any theme with any layout by concatenating both CSS files:
 /* layouts/two-column/index.css content here */
 ```
 
-## Development
+## Documentation
 
-### Prerequisites
-
-- [Bun](https://bun.sh/) (v1.0+)
-- [Docker](https://www.docker.com/) and Docker Compose
-
-### Quick Start
-
-```bash
-# Clone the repository
-git clone https://github.com/pacholoamit/uptime-kuma-themes.git
-cd uptime-kuma-themes
-
-# Install dependencies
-bun install
-
-# Start development environment (Uptime Kuma + Mock Server)
-bun dev
-```
-
-This will start:
-- **Uptime Kuma** at http://localhost:3001
-- **Mock Server** at http://localhost:3000
-
-### Default Credentials
-
-| Field | Value |
-|-------|-------|
-| Username | `user` |
-| Password | `password123` |
-
-### Available Scripts
-
-```bash
-# Start mock server only
-bun run server
-
-# Start mock server with hot reload
-bun run server:dev
-
-# Start Uptime Kuma (Docker)
-bun run docker:up
-
-# Stop Uptime Kuma
-bun run docker:down
-
-# Start everything for development
-bun dev
-
-# Seed database with monitors for mock endpoints
-bun run db:seed
-
-# Force re-seed (clears existing mock monitors first)
-bun run db:seed:force
-```
-
-### Mock Server Endpoints
-
-The mock server provides various endpoints to test different monitoring scenarios:
-
-#### Always States
-- `GET /always-up` - Always returns 200 OK
-- `GET /always-down` - Always returns 500 error
-
-#### Failure Patterns
-- `GET /random-failures` - 20% chance of failure
-- `GET /frequent-failures` - 50% chance of failure
-- `GET /intermittent` - Fails every 3rd request
-- `GET /flapping` - Alternates between up and down
-
-#### Timing Issues
-- `GET /slow-response` - 2-5 second delay
-- `GET /very-slow` - 10-15 second delay
-- `GET /timeout` - Never responds
-- `GET /memory-leak` - Gets slower with each request
-
-#### Status Variations
-- `GET /degraded` - Returns 200 with degraded status
-- `GET /maintenance` - Returns 503 Service Unavailable
-- `GET /scheduled-down` - Down during minutes 0-5 and 30-35
-- `GET /partial-outage` - Random partial service outage
-- `GET /rate-limited` - Returns 429 after 10 req/min
-
-#### Health Checks
-- `GET /health` - Detailed health check response
-- `GET /ping` - Simple ping/pong
-- `GET /keyword-check` - JSON with monitorable keywords
-- `GET /html-status` - HTML page with status
-- `GET /cert-check` - Certificate expiry simulation
-- `GET /status/:code` - Returns specified HTTP status code
-
-#### Docker Simulation
-- `GET /docker/healthy` - Healthy container status
-- `GET /docker/unhealthy` - Unhealthy container status
-
-### Connecting Uptime Kuma to Mock Server
-
-Since Uptime Kuma runs in Docker, use `host.docker.internal` to reach the mock server:
-
-```
-http://host.docker.internal:3000/always-up
-```
-
-## Contributing
-
-Contributions are welcome! Here's how to get started:
-
-### Adding a New Theme
-
-1. Create a new directory in `themes/` with your theme name (lowercase, hyphenated)
-2. Create an `index.css` file inside with your theme styles
-3. Follow the existing theme structure for consistency
-4. Ensure good contrast for readability (light text on dark backgrounds, etc.)
-5. Test with multiple monitor states (up, down, pending, maintenance)
-
-### Adding a New Layout
-
-1. Create a new directory in `layouts/` with your layout name
-2. Create an `index.css` file focusing only on positioning/sizing
-3. Avoid color changes - layouts should work with any theme
-4. Test responsiveness on mobile, tablet, and desktop
-
-### Development Workflow
-
-1. Fork the repository
-2. Create a feature branch: `git checkout -b feature/my-new-theme`
-3. Start the dev environment: `bun dev`
-4. Make your changes and test in Uptime Kuma
-5. Commit your changes: `git commit -m "Add my-new-theme"`
-6. Push to your fork: `git push origin feature/my-new-theme`
-7. Open a Pull Request
-
-### Code Style
-
-- Use CSS custom properties (variables) for colors
-- Include comments for major sections
-- Follow the existing file structure
-- Test across different browsers
-
-## Project Structure
-
-```
-uptime-kuma-themes/
-├── themes/                    # CSS theme files
-│   ├── gruvbox/
-│   ├── catppuccin/
-│   └── .../
-├── layouts/                   # CSS layout files
-│   ├── compact/
-│   ├── two-column/
-│   └── .../
-├── server/
-│   └── index.ts               # Mock server for testing
-├── migrations/
-│   └── 001_seed_monitors.ts   # Database seeder for mock endpoints
-├── data/                      # Uptime Kuma data (gitignored)
-├── docker-compose.yml
-├── package.json
-└── README.md
-```
+- [Development Guide](./docs/DEVELOPMENT.md) - Setting up the development environment, available scripts, mock server endpoints, and troubleshooting
+- [Contributing Guide](./docs/CONTRIBUTING.md) - How to add new themes/layouts, code style guidelines, and PR requirements
 
 ## License
 
