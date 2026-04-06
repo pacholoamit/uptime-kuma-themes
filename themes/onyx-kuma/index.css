@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&display=swap');
+
+:root {
+    --bg: #000000;
+    --panel-bg: #020308;
+    --panel-border: rgba(59, 130, 246, 0.5);
+    --row-divider: rgba(255, 255, 255, .06);
+
+    --text-primary: #f0f6fc;
+    --text-dim: #8b949e;
+    --text-muted: #484f58;
+
+    --bar-height: 40px;
+
+    --font: 'JetBrains Mono', ui-monospace, 'Cascadia Code', monospace;
+
+    --container-w: 720px;
+    --radius: 8px;
+
+    --bs-info: #4e9bfa;
+    --bs-light: #c4c4c4;
+    --bs-dark: #3f3f3f;
+
+    /*Override Uptime Kuma defaults*/
+    --bs-primary: #04d186;
+    --bs-danger: #f32e3f;
+    --bs-warning: #ff8c00;
+    --maintenance: #4c76ff;
+}
+
+html,
+body {
+    background: var(--bg) !important;
+    color: var(--text-primary) !important;
+    font-family: var(--font) !important;
+    font-size: 13px;
+    -webkit-font-smoothing: antialiased;
+}
+
+body:not(:has(.edit)) {
+    background-color: var(--bg) !important;
+    color: var(--text-primary) !important;
+}
+
+* {
+    font-family: var(--font) !important;
+}
+
+.title-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    margin-top: 0 !important;
+    padding: 48px 20px 0 !important;
+    max-width: var(--container-w) !important;
+}
+
+.group-title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+    padding: 0 4px;
+    color: var(--text-dim);
+    font-size: .7rem;
+    font-weight: 500;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+}
+
+.shadow-box.monitor-list {
+    margin-top: 0 !important;
+    box-shadow: none;
+    border: 1px solid var(--panel-border);
+    border-radius: var(--radius);
+    background-color: var(--panel-bg) !important;
+    padding: 0 !important;
+    overflow: hidden;
+}
+
+.shadow-box.monitor-list>.monitor-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+.monitor-list .item {
+    box-shadow: none !important;
+    border: none !important;
+    border-bottom: 1px solid var(--row-divider) !important;
+    border-radius: 0 !important;
+    background-color: transparent !important;
+    padding: 14px 20px !important;
+    transition: background .12s;
+}
+
+.monitor-list .item:last-child {
+    border-bottom: none !important;
+}
+
+.monitor-list .item:hover {
+    background-color: rgba(255, 255, 255, .02) !important;
+}
+
+.monitor-list .item>.row>div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    order: 2;
+    margin-bottom: 10px;
+}
+
+.badge {
+    all: unset;
+    order: 1;
+    margin-left: auto;
+    padding-left: 12px;
+    background: transparent !important;
+    font-size: .75rem;
+    font-weight: 600;
+    letter-spacing: .02em;
+    white-space: nowrap;
+}
+
+.badge.bg-primary {
+    color: var(--bs-primary) !important;
+}
+
+.badge.bg-danger {
+    color: var(--bs-danger) !important;
+}
+
+.badge.bg-warning {
+    color: var(--bs-warning) !important;
+}
+
+.badge.bg-maintenance {
+    color: var(--maintenance) !important;
+}
+
+.wrap {
+    padding: 0 !important;
+}
+
+.hp-bar-big {
+    display: flex;
+    margin-bottom: 5px;
+    padding: 0;
+    gap: 0;
+}
+
+.mobile .hp-bar-big {
+    padding-bottom: 0;
+}
+
+.hp-bar-big .heartbeat-canvas {
+    border-radius: 0 !important;
+    width: 100% !important;
+    height: var(--bar-height) !important;
+    ;
+}
+
+.overall-status {
+    background-color: var(--panel-bg) !important;
+    border: 1px solid var(--panel-border);
+}
+
+.tooltip-wrapper .tooltip-content {
+    background-color: var(--panel-bg) !important;
+    border: 1px solid var(--panel-border) !important;
+}
+
+/*
+ . *dropdown-menu
+ {
+ background-color: var(--panel-bg) !important;
+ border: 1px solid var(--panel-border) !important;
+ }
+ */
+
+.dropdown #sortDropdown0 {
+    background-color: var(--panel-bg) !important;
+    border: 1px solid var(--panel-border) !important;
+    display: none;
+    /* Hide the dropdown by default */
+}
+
+.container:has(.edit) {
+    max-width: 1200px !important;
+}
+
+.shadow-box.alert.incident {
+    color: var(--text-primary);
+}
+
+.shadow-box.alert.incident.bg-primary {
+
+    border: 1px solid var(--bs-primary) !important;
+    background-color: color-mix(in srgb, var(--bs-primary) 15%, transparent) !important;
+}
+
+.shadow-box.alert.incident.bg-danger {
+
+    border: 1px solid var(--bs-danger) !important;
+    background-color: color-mix(in srgb, var(--bs-danger) 15%, transparent) !important;
+}
+
+.shadow-box.alert.incident.bg-warning {
+
+    border: 1px solid var(--bs-warning) !important;
+    background-color: color-mix(in srgb, var(--bs-warning) 15%, transparent) !important;
+}
+
+.shadow-box.alert.incident.bg-maintenance {
+
+    border: 1px solid var(--maintenance) !important;
+    background-color: color-mix(in srgb, var(--maintenance) 15%, transparent) !important;
+}
+
+.shadow-box.alert.incident.bg-info {
+
+    border: 1px solid var(--bs-info) !important;
+    background-color: color-mix(in srgb, var(--bs-info) 15%, transparent) !important;
+}
+
+.shadow-box.alert.incident.bg-light {
+
+    border: 1px solid var(--bs-light) !important;
+    background-color: color-mix(in srgb, var(--bs-light) 15%, transparent) !important;
+}
+
+.shadow-box.alert.incident.bg-dark {
+
+    border: 1px solid var(--bs-dark) !important;
+    background-color: color-mix(in srgb, var(--bs-dark) 15%, transparent) !important;
+}
+
+.shadow-box.bg-maintenance {
+    border: 1px solid var(--maintenance) !important;
+    background-color: color-mix(in srgb, var(--maintenance) 15%, transparent) !important;
+}
+
+.shadow-box.incident-list-box {
+    border: 1px solid var(--panel-border) !important;
+    background-color: var(--panel-bg) !important;
+}
+
+.p-3 {
+    padding: 1.5rem !important;
+}
+.status-maintenance {
+    color: var(--maintenance) !important;
+}
+
+.status-down {
+    color: var(--bs-danger) !important;
+}
+
+.status-up {
+    color: var(--bs-primary) !important;
+}
+
+.status-pending {
+    color: var(--bs-warning) !important;
+}
+
+.status-danger {
+    color: var(--bs-danger) !important;
+}
+
+.danger {
+    color: var(--bs-danger) !important;
+}
+
+.warning {
+    color: var(--bs-warning) !important;
+}
+
+.ok {
+    color: var(--bs-primary) !important;
+}
+
+.incident-item {
+    background-color: transparent !important;
+}
+
+footer {
+    color: var(--text-muted);
+}
