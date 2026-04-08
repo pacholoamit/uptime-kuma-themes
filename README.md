@@ -356,6 +356,16 @@ Uses design elements found in Shadcn based UI libraries.
 
 ---
 
+### Onyx Kuma
+
+Sleek, minimal dark interface with refined contrast.
+
+![Onyx Kuma](./themes/onyx-kuma/default.png)
+
+[View CSS](./themes/onyx-kuma/index.css)
+
+---
+
 ## Documentation
 
 - [Development Guide](./docs/DEVELOPMENT.md) - Setting up the development environment, available scripts, mock server endpoints, and troubleshooting
