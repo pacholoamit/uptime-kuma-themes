@@ -250,11 +250,40 @@ body::after {
 
 /* Monitor names */
 .monitor-list-item .name,
-.item .name {
+.item .name,
+.monitor-list-item .item-name,
+.item .item-name {
   font-weight: 500 !important;
   font-size: 0.95rem !important;
   color: var(--text-primary) !important;
   flex: 1;
+}
+
+.monitor-list-item .name a,
+.monitor-list-item .name a:visited,
+.monitor-list-item .name a:active,
+.item .name a,
+.item .name a:visited,
+.item .name a:active,
+.monitor-list-item .item-name a,
+.monitor-list-item .item-name a:visited,
+.monitor-list-item .item-name a:active,
+.item .item-name a,
+.item .item-name a:visited,
+.item .item-name a:active {
+  color: var(--text-primary) !important;
+  text-decoration: none !important;
+}
+
+.monitor-list-item .name a:hover,
+.monitor-list-item .name a:focus,
+.item .name a:hover,
+.item .name a:focus,
+.monitor-list-item .item-name a:hover,
+.monitor-list-item .item-name a:focus,
+.item .item-name a:hover,
+.item .item-name a:focus {
+  color: var(--text-primary) !important;
 }
 
 /* ============ STATUS BADGES ============ */
